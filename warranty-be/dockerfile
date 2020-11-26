@@ -1,0 +1,9 @@
+FROM node:latest
+
+WORKDIR /usr/src/app
+COPY . /usr/src/app
+
+RUN yarn && yarn webpack:compile:api
+
+CMD [ "node", "dist/api.js" ]
+EXPOSE 8080

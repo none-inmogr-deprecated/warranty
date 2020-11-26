@@ -1,0 +1,41 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "baseUrl": "./",
+        "outDir": "../dist",
+        "module": "ESNext",
+        "target": "ESNext",
+        "declaration": false,
+        "moduleResolution": "node",
+        "lib": [
+            "ESNext",
+            "es6",
+            "es5"
+        ],
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "allowUmdGlobalAccess": true,
+        "removeComments": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "importHelpers": true,
+        "alwaysStrict": true,
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "pretty": true,
+        "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "noImplicitReturns": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "disableSizeLimit": true,
+        "sourceMap": true
+    },
+    "include": [
+        "src"
+    ]
+}
